@@ -10,15 +10,10 @@ package javaex;
  *
  * @author alex
  */
-public class JavaEx {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-       
-       Dog dog = new Dog();
-        System.out.println(dog);
-    }
+public abstract class Walk {
+    public abstract void run();
     
+    public void walkSlow(){
+        System.out.println("this is walking slow");
+    }
 }

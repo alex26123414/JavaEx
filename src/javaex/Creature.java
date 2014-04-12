@@ -10,15 +10,20 @@ package javaex;
  *
  * @author alex
  */
-public class JavaEx {
+public class Creature {
+    private String id;
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-       
-       Dog dog = new Dog();
-        System.out.println(dog);
+    public Creature(String id) {
+        this.id = id;
     }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+    
     
 }

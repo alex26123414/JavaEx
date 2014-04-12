@@ -10,8 +10,6 @@ package javaex;
  *
  * @author alex
  */
-public class Encapsulation {
-    private String name;
-    private String dob;
-    
+public enum Colors {
+    RED, BLUE, GREEN
 }

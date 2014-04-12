@@ -10,15 +10,7 @@ package javaex;
  *
  * @author alex
  */
-public class JavaEx {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-       
-       Dog dog = new Dog();
-        System.out.println(dog);
-    }
+public interface liveableAir {
+    public void breathInA();
     
 }
